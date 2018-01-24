@@ -1,0 +1,66 @@
+// 将键绑定放入此文件中以覆盖默认值
+[{
+        "key": "ctrl+s",
+        "command": "actions.find"
+    }, {
+        "key": "ctrl+x",
+        "command": "-editor.action.clipboardCutAction"
+    }, {
+        "key": "ctrl+x ctrl+s",
+        "command": "workbench.action.files.save"
+    }, {
+        "key": "ctrl+j",
+        "command": "workbench.action.quickOpen"
+    }, {
+        "key": "ctrl+w",
+        "command": "editor.action.clipboardCutAction",
+        "when": "editorTextFocus"
+    }, {
+        "key": "ctrl+y",
+        "command": "editor.action.clipboardPasteAction"
+    }, {
+        "key": "ctrl+a",
+        "command": "cursorHome",
+        "when": "editorTextFocus"
+    }, {
+        "key": "ctrl+e",
+        "command": "cursorEnd",
+        "when": "editorTextFocus"
+    }, {
+        "key": "ctrl+f",
+        "command": "cursorRight",
+        "when": "editorTextFocus"
+    }, {
+        "key": "ctrl+b",
+        "command": "cursorLeft",
+        "when": "editorTextFocus"
+    }, {
+        "key": "ctrl+c",
+        "command": "-amVim.ctrl+c"
+    },{
+        "key": "ctrl+n",
+        "command": "selectNextSuggestion",
+        "when": "suggestWidgetVisible"
+    }, {
+        "key": "ctrl+p",
+        "command": "selectPrevSuggestion",
+        "when": "suggestWidgetVisible"
+    }, {
+        "key": "ctrl+p",
+        "command": "cursorUp",
+        "when": "editorTextFocus && !suggestWidgetVisible && amVim.mode == 'INSERT'"
+    }, {
+        "key": "ctrl+n",
+        "command": "cursorDown",
+        "when": "editorTextFocus && !suggestWidgetVisible && amVim.mode == 'INSERT'"
+    }, {
+        "key": "ctrl+n",
+        "command": "workbench.action.quickOpenNavigateNext",
+        "when": "inQuickOpen"
+    }, {
+        "key": "ctrl+p",
+        "command": "workbench.action.quickOpenNavigatePrevious",
+        "when": "inQuickOpen"
+    }
+
+]
